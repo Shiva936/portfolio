@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/assets/intro-dev.png"
+          src="public/assets/intro-dev.png"
           alt="Portfolio background"
           className="w-full h-full object-cover object-right"
         />
