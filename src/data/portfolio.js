@@ -12,8 +12,8 @@ export const profile = {
 export const experiences = [
   {
     company: 'Razorpay',
-    role: 'Senior Backend Engineer',
-    period: '2023 – Present',
+    role: 'Software Engineer',
+    period: '2024 – 2025',
     highlights: [
       'Architected request-level idempotency and reconciliation systems for payment pipelines.',
       'Reduced support escalations by 40%+ through deterministic replay tooling.',
@@ -24,8 +24,8 @@ export const experiences = [
   },
   {
     company: 'Cyble',
-    role: 'Backend Engineer',
-    period: '2021 – 2023',
+    role: 'Software Engineer',
+    period: '2024 – 2024',
     highlights: [
       'Built a CMS that reduced support requests by 80% through self-service platform tooling.',
       'Designed Kafka pipelines with 99% accuracy for threat telemetry ingestion.',
@@ -35,8 +35,8 @@ export const experiences = [
   },
   {
     company: 'Wiz Freight',
-    role: 'Backend Engineer',
-    period: '2019 – 2021',
+    role: 'Software Engineer',
+    period: '2022 – 2024',
     highlights: [
       'Optimized APIs for 80% faster response times under production traffic patterns.',
       'Built multi-currency systems with consistent rounding and settlement guarantees.',
