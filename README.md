@@ -3,7 +3,7 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue)](https://shiva936.github.io/portfolio)
 [![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-2088FF)](https://shiva936.github.io/portfolio)
 
-A modern, responsive portfolio website showcasing the work and expertise of Shiv Deepak Sharma, a Backend Engineer specializing in distributed systems, Golang, and high-performance APIs.
+A modern, responsive portfolio website showcasing the work and expertise.
 
 ## 🚀 Features
 
