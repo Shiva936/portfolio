@@ -5,7 +5,7 @@ export default function About() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="relative mx-auto max-w-sm">
             <img
-              src="public/assets/about-dev.png"
+              src="assets/about-dev.png"
               alt="About section illustration"
               className="h-80 w-full rounded-2xl object-cover shadow-xl shadow-blue-500/10 border border-white/10 transition-transform duration-300 hover:scale-105"
             />
