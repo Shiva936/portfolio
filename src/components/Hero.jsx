@@ -2,26 +2,29 @@ import { profile } from '../data/portfolio'
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative min-h-[80vh] w-full flex items-center md:min-h-[90vh] overflow-hidden pb-16 md:pb-0">
+    <section id="hero" className="relative min-h-[80vh] w-full flex items-center md:min-h-[90vh] overflow-hidden pb-16 md:pb-0 border-t border-b border-white/5">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
           src="assets/intro-dev.png"
           alt="Portfolio background"
-          className="w-full h-full object-cover object-right"
+          className="w-full h-full object-right object-contain"
         />
       </div>
 
       {/* Dark Overlay Gradient - Left to Right */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#020617] via-[#020617]/90 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#020617] via-[#020617]/80 to-transparent" />
+
+      {/* Subtle fade at bottom */}
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#020617]" />
 
       {/* Blur Glow Effect (Optional Depth) */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[560px] h-[560px] sm:w-[680px] sm:h-[680px] lg:w-[800px] lg:h-[800px] bg-blue-500/10 blur-3xl rounded-full pointer-events-none" />
 
       {/* Content */}
       <div className="relative z-10 w-full">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="max-w-2xl">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="max-w-xl">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight text-white">
               {profile.name}
             </h1>

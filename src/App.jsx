@@ -24,7 +24,7 @@ export default function App() {
       <Loader active={!isReady} />
       <div className={isReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}>
         <NavBar />
-        <main className="max-w-6xl mx-auto px-6 pb-20 pt-24">
+        <main className="max-w-5xl mx-auto px-6 pb-20 pt-24">
           <Hero />
           <About />
           <Experience />
