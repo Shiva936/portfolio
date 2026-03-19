@@ -1,4 +1,4 @@
-# Shiv Deepak Sharma — Backend Engineering Portfolio
+# Software Engineering Portfolio
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue)](https://shiva936.github.io/portfolio)
 [![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-2088FF)](https://shiva936.github.io/portfolio)
